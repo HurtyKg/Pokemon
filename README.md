@@ -9,7 +9,7 @@
 ## 💻 Projeto
 
 Consumindo api do poképpi.co. 
-![preview img](public/spotify.png)
+![preview img](src/assets.png)
 
 
 ## Participantes
@@ -19,9 +19,10 @@ Consumindo api do poképpi.co.
 
 
 ## Tecnologias
-- [x] NextJs
-- [x] Tailwind CSS
+- [x] ReactJs
+- [x] ViteJs
 - [x] TypeScript
+- [x] Css
 
 
 ## Como utilizar?
