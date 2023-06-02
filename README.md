@@ -28,6 +28,7 @@ https://pokemon-zfcc.vercel.app/
 ## Tecnologias
 - [x] ReactJs
 - [x] ViteJs
+- [x] Axios
 - [x] TypeScript
 - [x] Css
 
