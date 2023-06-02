@@ -9,7 +9,7 @@
 ## 💻 Projeto
 
 Consumindo api do poképpi.co. 
-![preview img](pokemon/src/assets/imagemDoProjeto.png)
+![preview img](/src/assets/imagemDoProjeto.png)
 
 
 ## Participantes
