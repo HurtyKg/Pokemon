@@ -20,8 +20,9 @@ https://pokemon-zfcc.vercel.app/
 
 ## Participantes
 
-
 [Enzo Oliveira](https://www.linkedin.com/in/enzo-oliveira-a18344229/)
+
+
 
 
 ## Tecnologias
