@@ -13,9 +13,6 @@ export function Home() {
   const [visiblePokemons, setVisiblePokemons] = useState(12); 
   const [loadMoreVisible, setLoadMoreVisible] =  useState(true); 
 
-  
-  
-
   const filteredPokemons = (name:string) => {
     setFilterPokemon(name)
   }
@@ -59,11 +56,10 @@ const handleLoadLess = () => {
             Ver menos -
           </button>
         )}
-        {filterPokemon === '' && visiblePokemons >= 6 && (
-            <button onClick={handleLoadMore} color="success"
-            className="button">
-              Ver mais +
-            </button>
+       {filterPokemon === '' && loadMoreVisible && (
+          <button onClick={handleLoadMore} color="success" className="button">
+            Ver mais +
+          </button>
         )}
         <button  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="voltar">voltar</button>
 

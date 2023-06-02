@@ -15,7 +15,7 @@ export const Nav:React.FC<INav>=({filteredPokemons} ) =>{
       <input type="text"
        name="" 
        id="" 
-       placeholder="Buscar Pokemon" 
+       placeholder="Digite o Pokémon que você deseje ver" 
        className="search"
        onChange={(e) =>filteredPokemons(e.target.value)}
        />
