@@ -17,7 +17,6 @@ export function PokemonCard({ data }: { data: IPokemon}) {
     };
     getPokemons();
   }, [data.url]);
-
  
   return (
     <div className="pokemonCard">
@@ -37,7 +36,6 @@ export function PokemonCard({ data }: { data: IPokemon}) {
         );
       })}
       </div>
-    
     </div>
   )
 }

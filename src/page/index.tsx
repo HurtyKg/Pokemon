@@ -61,7 +61,11 @@ const handleLoadLess = () => {
             Ver mais +
           </button>
         )}
-        <button  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="voltar">voltar</button>
+        {!filterPokemon && (
+            <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="voltar">
+               voltar
+           </button>
+         )}
 
        </div>
       </div>
