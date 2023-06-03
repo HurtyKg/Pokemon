@@ -12,7 +12,7 @@
 Consumindo api do poképpi.co
 ### 💻 Link
 
-https://pokemon-zfcc.vercel.app/
+https://pokemon-beta-seven.vercel.app/
 
 
 ![preview img](/src/assets/imagemDoProjeto.png)
